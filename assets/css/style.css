@@ -114,11 +114,16 @@ p {
     padding-right: 25px;
 }
 
+
 #myimage {
     width: 200px;
     height: 276px;
     margin-left: 100px;
     float: left;
+}
+
+p:hover {
+    background-color: #F3EA5D;
 }
 
   /* #triangle {
