@@ -9,12 +9,12 @@
   }
 
   .heading {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     font-family: 'Poiret One', cursive;
   }
 
-  .marine {
+  #marine {
       margin-top: 100px;
       font-size: 40px;
       text-align: center;
@@ -24,7 +24,7 @@
 
 
   .footer {
-    background-color: #F3EA5D;
+    background-color: #EADA24;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -37,6 +37,7 @@
   .copyright {
     font-family: 'DM Sans', sans-serif;
     color: #53565A;
+    font-size: 13px;
   }
 
   #icreate {
@@ -67,9 +68,9 @@
     float: left;
     display: inline;
     -webkit-animation-name: work;
-    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
   animation-name: work;
-  animation-duration: 8s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   }
 
@@ -84,15 +85,40 @@
     border-style: solid;
     border-color: #00B0B9;
     -webkit-animation-name: work;
-    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
   animation-name: about;
-  animation-duration: 8s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes about {
     from {background-color: #F3EA5D;}
     to {background-color: #00B0B9;}
+}
+
+p {
+    clear:both;
+    text-align: center;
+    color: #53565A;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#github, #linkedin, #email {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 0px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+#myimage {
+    width: 200px;
+    height: 276px;
+    margin-left: 100px;
+    float: left;
 }
 
   /* #triangle {
