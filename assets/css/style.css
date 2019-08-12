@@ -1,4 +1,4 @@
-div {
+.main-div {
     width: 100px;
     height: 50px;
     font-weight: bold;
@@ -53,6 +53,18 @@ div {
     to {left: 600px;}
   }
   
-  .jumbotron-fluid {
+  .header {
       width: 100%;
+      position: fixed;
+      background-color: white;
+      color: #53565A;
+      border-bottom-style: solid;
+      border-color: #00B0B9;
+      border-width: 2px;
+      height: 90px;
+  }
+
+  .heading {
+    margin-top: 20px;
+    margin-left: 15px;
   }
