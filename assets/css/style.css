@@ -221,23 +221,39 @@ p:hover {
 
 
 @media screen and(max-width: 576px) {
-    #work, #about, #cirlce {
+    #work, #about, #circle {
         margin-left: 250px;
         width: 100px;
         height: 100px;
         padding-top: 50px;
         font-size: 25px;
+    
+    }
+
+    .footer {
+        position: absolute;
+    }
+
+    body {
+        height: 300px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    #work, #about, #cirlce {
+    #work, #about, #circle {
     margin-left: 250px;
     width: 150px;
     height: 150px; 
     padding-top: 50px;
     font-size: 25px;
  }
+ .footer {
+    position: absolute;
+}
+body {
+    height: 300px;
+}
+}
 
   /* #triangle {
     width: 0;
