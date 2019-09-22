@@ -9,7 +9,16 @@
   }
 
   .work-body {
-    height: 1000px;
+    height: 1200px;
+  }
+
+  .portfolio {
+    position: relative;
+  }
+
+  #workpage-circles {
+    position: absolute;
+    margin-top: 750px;
   }
 
   .heading {
@@ -68,29 +77,6 @@
 }
 
   #work, #about {
-    width: 200px;
-    height: 200px;
-    background: #00B0B9;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #F3EA5D;
-    position: relative;
-    text-align: center;
-    padding-top: 70px;
-    font-size: 35px;
-    font-family: 'DM Sans', sans-serif;
-    margin-left: 150px;
-    color: #53565A;
-    float: left;
-    display: inline;
-    -webkit-animation-name: work;
-    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-  animation-name: work;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  }
-
-  #port-index, #port-about {
     width: 200px;
     height: 200px;
     background: #00B0B9;
