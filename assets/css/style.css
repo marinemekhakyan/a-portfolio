@@ -19,6 +19,7 @@
   #workpage-circles {
     position: absolute;
     margin-top: 750px;
+    text-align: center;
   }
 
   .heading {
@@ -35,7 +36,6 @@
       font-family: 'Montserrat', sans-serif;
   }
 
-
   .footer {
     background-color: #EADA24;
     position: fixed;
@@ -46,18 +46,6 @@
     font-size: 12px;
     padding: 10px;
   }
-
-  /* .work-footer {
-      background-color: #EADA24;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
-      font-size: 12px;
-      padding: 10px;
-
-  } */
 
   .copyright {
     font-family: 'DM Sans', sans-serif;
@@ -125,6 +113,10 @@
   animation-name: work;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  }
+
+  .circles {
+    text-align: center;
   }
 
   @-webkit-keyframes circle {
@@ -245,9 +237,9 @@ p:hover {
 
 
 
-@media screen and(max-width: 576px) {
-    #work, #about, #circle {
-        margin-left: 250px;
+@media screen and(max-width: 500px) {
+    #work, #about, #circle .cirlces {
+        text-align: center;
         width: 100px;
         height: 100px;
         padding-top: 50px;
@@ -255,46 +247,41 @@ p:hover {
     
     }
 
-    .footer {
-        position: absolute;
+    .work-body {
+      height: 1500px;
     }
 
     body {
-        height: 300px;
+        height: 1000px;
+    }
+
+    #workpage-circles {
+        margin-top: 1000px;
+    }
+
+    .footer {
+      position: fixed;
     }
 
 }
 
 @media screen and (max-width: 1024px) {
     #work, #about, #circle {
-    margin-left: 250px;
+    margin-left: 232px;
+    margin-top: 500px;
     width: 150px;
     height: 150px; 
     padding-top: 50px;
     font-size: 25px;
  }
  .footer {
-    position: absolute;
+    position: fixed;
 }
 body {
-    height: 300px;
+    height: 200px;
+}
+.work-body {
+  height: 1700px;
 }
 }
 
-  /* #triangle {
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 200px solid #F3EA5D;
-    text-align: justify;
-    font-size: 35px;
-    font-family: 'DM Sans', sans-serif;
-    color: #53565A;
-    position: relative;
-    margin-left: 600px;
-    /* margin-bottom: 20px; */
-    /* float: left; */
-    /* display: inline;
-
-  } */ */
