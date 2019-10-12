@@ -10,10 +10,15 @@
 
   body {
     height: auto;
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center; */
+
   }
 
   .work-body {
     height: 1200px;
+    /* text-align: center; */
   }
 
   .portfolio {
@@ -23,7 +28,6 @@
   #workpage-circles {
     position: absolute;
     margin-top: 750px;
-    text-align: center;
   }
 
   .heading {
@@ -75,22 +79,24 @@
     padding-top: 70px;
     font-size: 35px;
     font-family: 'DM Sans', sans-serif;
-    margin-left: 150px;
     color: #53565A;
-    float: left;
+    display: inline-block;
+    /* justify-content: center; */
     -webkit-animation-name: work;
     -webkit-animation-duration: 5s; 
     animation-name: work;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    
   }
+
 
   @keyframes work {
       from {background-color: #00B0B9;}
       to {background-color: #F3EA5D;}
   }
 
-  .circles {
+  .circles,  #workpage-circles{
     text-align: center; 
   }
 
@@ -202,10 +208,9 @@
     margin-left: 50px;
     font-family: 'Poiret One', cursive;
   }
+  
 
-
-
-@media screen and(max-width: 500px) {
+@media screen and (max-width: 500px) {
     #work, #about {
         width: 100px;
         height: 100px;
@@ -218,10 +223,13 @@
 
     .work-body {
       height: 1500px;
+      /* display: flex;
+      flex-flow: row wrap; */
     }
 
     body {
-        height: auto;
+      display: flex;
+      align-content: space-around;
     }
 
     .footer {
@@ -245,12 +253,19 @@
       position: fixed;
     }
 
-    body {
-      height: 200px;
-    }
-
     .work-body {
     height: 1700px;
+    /* display: flex;
+    flex-flow: row wrap; */
     }
+/* 
+    body {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    } */
 }
+
+
+
 
