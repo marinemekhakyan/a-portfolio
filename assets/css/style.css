@@ -15,8 +15,7 @@
 }
 
 .card {
-  margin: 20px;
-  
+  margin: 20px; 
 }
 
 .heading {
@@ -41,24 +40,19 @@
 .card-title {
   text-align: center;
 }
-/* 
-.card-text {
-  line-height: 1;
-} */
 
 #work-body {
   min-height: 100%;
 }
 
 .view-app {
-  /* color: #00B0B9; */
   font-weight: bolder;
   font-size: 22px;
-
+  text-transform: uppercase;
 }
 
-a {
-  text-decoration: none;
+a:hover {
+  color: #EADA24;
 }
 
 #workpage-circles {
@@ -79,7 +73,6 @@ a {
 
 .work-footer {
   background-color: #EADA24;
-  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -107,14 +100,12 @@ a {
   border-radius: 50%;
   border-style: solid;
   border-color: #F3EA5D;
-  /* position: relative; */
   text-align: center;
   padding-top: 70px;
   font-size: 35px;
   font-family: 'DM Sans', sans-serif;
   color: #53565A;
   display: inline-block;
-  /* justify-content: center; */
   -webkit-animation-name: work;
   -webkit-animation-duration: 5s; 
   animation-name: work;
@@ -189,10 +180,6 @@ h2 {
   #work, #about {
       display: inline-block;
   }
-/* 
-  .footer {
-    position: fixed;
-  } */
 }
 
 @media screen and (max-width: 1024px) {
@@ -205,9 +192,5 @@ h2 {
   display: inline-block;
   margin: 60px;
   }
-
-  /* .footer {
-    position: fixed;
-  } */
 
 }
