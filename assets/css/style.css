@@ -7,10 +7,6 @@
   border-width: 2px;
   height: 90px;
 }
-/* 
-html, body {
-  height: 100%;
-} */
 
 .card-deck {
   margin: 200px;
@@ -29,7 +25,7 @@ html, body {
 }
 
 #marine {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 40px;
   text-align: center;
   color: #53565A;
@@ -49,6 +45,10 @@ html, body {
   min-height: 100%;
 }
 
+/* html, body {
+  height: 100%;
+} */
+
 .view-app {
   font-weight: bolder;
   font-size: 22px;
@@ -67,7 +67,17 @@ a:hover {
 
 .footer {
   background-color: #EADA24;
-  /* position: fixed; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.about-footer {
+  background-color: #EADA24;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -103,7 +113,6 @@ a:hover {
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 20px;
-  /* padding-bottom: 30px; */
 }
 
 #work, #about {
@@ -195,7 +204,6 @@ h2 {
       display: inline-block;
   }
 
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -215,4 +223,3 @@ h2 {
 
 }
 
-/* add viewport height to fix extra space issue in responsive view */
