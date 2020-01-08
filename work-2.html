@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Google Fonts reference-->
     <link href="https://fonts.googleapis.com/css?family=DM+Sans|Montserrat|Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <title>iMar!ne</title>
@@ -20,8 +21,8 @@
         <h1 class="heading">mar!ne mekhakyan</h1>
         <a href="https://github.com/marinemekhakyan" target="_blank"><img src="assets/images/github.png"
                 id="github"></a>
-        <a href="https://www.linkedin.com/in/marine-mekhakyan/" target="_blank"><img
-                src="assets/images/linkedin.png" id="linkedin"></a>
+        <a href="https://www.linkedin.com/in/marine-mekhakyan/" target="_blank"><img src="assets/images/linkedin.png"
+                id="linkedin"></a>
         <a href="mailto:marinemekhakyan@gmail.com" target="_blank"><img src="assets/images/email.png" id="email"></a>
     </div>
 
@@ -71,7 +72,8 @@
             <img src="assets/images/psdbamazon.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">BAmazon</h5>
-                <p class="card-text">Web Development bootcamp project. BAmazon is a CLI storefront designed with <strong class="technologies">JavaScript
+                <p class="card-text">Web Development bootcamp project. BAmazon is a CLI storefront designed with <strong
+                        class="technologies">JavaScript
                         and Node</strong> with the help of <strong class="technologies"> MySQL</strong> to store all
                     data.</p>
                 <a href="https://github.com/marinemekhakyan/BAmazon" target="_blank">
@@ -80,14 +82,15 @@
             </div>
         </div>
     </div>
-  
+
     <div class="card-deck">
         <div class="card">
             <img src="assets/images/psdfriendfinder.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Friend Finder</h5>
                 <p class="card-text">Web Development bootcamp project. Full-stack quiz app built with <strong
-                        class="technologies">HTML, CSS, JavaScript, Node, Express, AJAX and Path. Take the quiz to find your next best friend!</strong></p>
+                        class="technologies">HTML, CSS, JavaScript, Node, Express, AJAX and Path. Take the quiz to find
+                        your next best friend!</strong></p>
                 <a href="https://github.com/marinemekhakyan/FriendFinder" target="_blank">
                     <p class="view-app">View App</p>
                 </a>
@@ -100,7 +103,8 @@
             <img src="assets/images/psdburger.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Late Night Burger Place</h5>
-                <p class="card-text">Web Development bootcamp project. Full-stack app that houses some of the best virtual
+                <p class="card-text">Web Development bootcamp project. Full-stack app that houses some of the best
+                    virtual
                     burgers. Always appropriate for those late-night cravings. Created with <strong
                         class="technologies"> Node, Express, Handlebars, MySQL, JavaScript, HTML & CSS.</strong></p>
                 <a href="https://late-night-burger-place.herokuapp.com/" target="_blank">
@@ -115,7 +119,8 @@
             <img src="assets/images/psdliri.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Liri App</h5>
-                <p class="card-text">Web Development bootcamp project. Liri will search Spotify for your favorite music, OMDB for your favorite films and
+                <p class="card-text">Web Development bootcamp project. Liri will search Spotify for your favorite music,
+                    OMDB for your favorite films and
                     Bands In Town for upcoming concerts you don't want to miss. A CLI app created with <strong
                         class="technologies">Node, JavaScript, AJAX, HTML & CSS.</strong></p>
                 <a href="https://github.com/marinemekhakyan/liri-node-app" target="_blank">
@@ -124,7 +129,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
     <!-- <div class="card-deck">
         <div class="card">
             <img src="assets/images/psdtrain.jpg" class="card-img-top" alt="...">
@@ -141,7 +146,7 @@
                 </a>
             </div>
         </div> -->
-        <!-- <div class="card">
+    <!-- <div class="card">
             <img src="assets/images/psdtrivia.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">True Cinephile Trivia</h5>
@@ -155,7 +160,7 @@
                 </a>
             </div>
         </div> -->
-        <!-- <div class="card">
+    <!-- <div class="card">
             <img src="assets/images/psdgiphy.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Giphy App</h5>
@@ -185,6 +190,15 @@
         <p class="copyright">&copy; mar!ne mekhakyan 2019</p>
 
     </div>
+    <script type='text/javascript'>
+
+        $(document).ready(function () {
+            $(".heading").on("click", function () {
+                window.location.href = 'index.html';
+            })
+        })
+
+    </script>
 </body>
 
 </html>

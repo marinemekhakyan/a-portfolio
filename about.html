@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <!--Bootstrap reference-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -8,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Google Fonts reference-->
     <link href="https://fonts.googleapis.com/css?family=DM+Sans|Montserrat|Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 <title>iMar!ne</title>
 <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -18,8 +21,8 @@
         <h1 class="heading">mar!ne mekhakyan</h1>
         <a href="https://github.com/marinemekhakyan" target="_blank"><img src="assets/images/github.png"
                 id="github"></a>
-        <a href="https://www.linkedin.com/in/marine-mekhakyan/" target="_blank"><img
-                src="assets/images/linkedin.png" id="linkedin"></a>
+        <a href="https://www.linkedin.com/in/marine-mekhakyan/" target="_blank"><img src="assets/images/linkedin.png"
+                id="linkedin"></a>
         <a href="mailto:marinemekhakyan@gmail.com"><img src="assets/images/email.png" id="email"><a>
     </div>
 
@@ -27,7 +30,10 @@
         <p>Front End Developer</p>
         <p class="technologies">Javascript | React | HTML5 | CSS3 | Node.js | MySQL | Express | Mongo </p>
         <hr>
-        <p><b>iMarine</b> started a full stack web-development program at University of California, Los Angeles extension in June 2019 and have been coding since.  I'm very passionate about creating compelling UI and bringing unique concept designs to life. Currently coding in JavaScript. Reach out to me to chat about your next project idea or just to say hi :)</p>
+        <p><b>iMarine</b> started a full stack web-development program at University of California, Los Angeles
+            extension in June 2019 and have been coding since. I'm very passionate about creating compelling UI and
+            bringing unique concept designs to life. Currently coding in JavaScript. Reach out to me to chat about your
+            next project idea or just to say hi :)</p>
         <hr>
 
     </div>
@@ -45,6 +51,15 @@
         <p class="copyright">&copy; mar!ne mekhakyan 2019</p>
 
     </div>
+    <script type='text/javascript'>
+
+        $(document).ready(function () {
+            $(".heading").on("click", function () {
+                window.location.href = 'index.html';
+            })
+        })
+
+    </script>
 </body>
 
 </html>
