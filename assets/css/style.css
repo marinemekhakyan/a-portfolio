@@ -37,6 +37,12 @@
   font-family: 'Poiret One', cursive;
 }
 
+hr {
+  border-color: #00B0B9;
+  border-width: 0.5px;
+  border-style: dotted;
+}
+
 .card-title {
   text-align: center;
 }
@@ -64,6 +70,7 @@ a:hover {
   margin-bottom: 10px;
   padding: 30px;
 }
+
 
 .footer {
   background-color: #EADA24;
