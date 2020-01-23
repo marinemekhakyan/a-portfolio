@@ -48,13 +48,13 @@ hr {
   text-align: center;
 }
 
-#work-body {
+#work-body, .about-body {
   min-height: 100%;
 }
 
-/* html, body {
-  height: 100%;
-} */
+html, body {
+  height: auto;
+}
 
 .view-app {
   font-weight: bolder;
@@ -84,17 +84,7 @@ a:hover {
   padding: 10px;
 }
 
-.about-footer {
-  background-color: #EADA24;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-  padding: 10px;
-}
-
-.work-footer {
+.work-footer, .about-footer {
   background-color: #EADA24;
   left: 0;
   bottom: 0;
@@ -118,8 +108,8 @@ a:hover {
 
 .about-marine {
   text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
   padding-top: 20px;
 }
 
@@ -235,6 +225,13 @@ h2 {
   .footer {
     position: fixed;
   }
-
 }
+
+@media screen and (min-height: 700px) {
+
+.about-footer {
+  position: fixed;
+}
+}
+
 
