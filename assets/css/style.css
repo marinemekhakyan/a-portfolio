@@ -262,3 +262,176 @@ h2 {
     }
 }
 
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) { 
+  #work, #about {
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-top: 200px;
+  }
+  .marine-create {
+    margin-top: 200px;
+  }
+  #marine, #icreate {
+    font-size: 70px;
+  }
+  .footer {
+    padding: 60px;
+  }
+  .copyright {
+    font-size: 35px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .icons {
+    display: block;
+  }
+ }
+
+ @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  #work, #about {
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-top: 200px;
+  }
+  .marine-create {
+    margin-top: 200px;
+  }
+  #marine, #icreate {
+    font-size: 70px;
+  }
+  .footer {
+    padding: 60px;
+  }
+  .copyright {
+    font-size: 35px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .icons {
+    display: block;
+  }
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) { 
+#work, #about {
+  height: 300px;
+  width: 300px;
+  font-size: 50px;
+  padding-top: 100px;
+  margin-top: 200px;
+}
+.marine-create {
+  margin-top: 200px;
+}
+#marine, #icreate {
+  font-size: 70px;
+}
+.footer {
+  padding: 60px;
+}
+.copyright {
+  font-size: 35px;
+}
+.heading {
+  font-size: 40px;
+}
+.icons {
+  display: block;
+}
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  #work, #about {
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-top: 200px;
+  }
+  .marine-create {
+    margin-top: 200px;
+  }
+  #marine, #icreate {
+    font-size: 70px;
+  }
+  .footer {
+    padding: 60px;
+  }
+  .copyright {
+    font-size: 35px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .icons {
+    display: block;
+  }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  #work, #about {
+    height: 320px;
+    width: 320px;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-top: 350px;
+  }
+  .marine-create {
+    margin-top: 200px;
+  }
+  #marine, #icreate {
+    font-size: 80px;
+  }
+  .footer {
+    padding: 60px;
+  }
+  .copyright {
+    font-size: 35px;
+  }
+  .heading {
+    font-size: 45px;
+  }
+  .icons {
+    display: block;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  #work, #about {
+    height: 250px;
+    width: 250px;
+    font-size: 40px;
+    padding-top: 80px;
+    margin-top: 100px;
+  }
+  .marine-create {
+    margin-top: 100px;
+  }
+  #marine, #icreate {
+    font-size: 50px;
+  }
+  .footer {
+    padding: 50px;
+  }
+  .copyright {
+    font-size: 30px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .icons {
+    display: block;
+  }
+}
+
