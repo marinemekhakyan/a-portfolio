@@ -208,7 +208,6 @@ h2 {
   #work, #about {
       display: inline-block;
   }
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -426,6 +425,34 @@ and (max-device-width : 1024px) {
   }
   .copyright {
     font-size: 30px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .icons {
+    display: block;
+  }
+}
+
+@media screen and (device-width: 411px) and (device-height: 731px) and (-webkit-device-pixel-ratio: 3) {
+  #work, #about {
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-top: 200px;
+  }
+  .marine-create {
+    margin-top: 200px;
+  }
+  #marine, #icreate {
+    font-size: 70px;
+  }
+  .footer {
+    padding: 60px;
+  }
+  .copyright {
+    font-size: 35px;
   }
   .heading {
     font-size: 40px;
