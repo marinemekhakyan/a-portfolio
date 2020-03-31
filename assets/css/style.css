@@ -259,6 +259,9 @@ h2 {
     .icons {
       display: block;
     }
+    .dev, .technologies, p {
+      font-size: 30px;
+    }
 }
 
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) { 
@@ -286,6 +289,9 @@ h2 {
   }
   .icons {
     display: block;
+  }
+  .dev, .technologies, p {
+    font-size: 30px;
   }
  }
 
@@ -315,6 +321,9 @@ h2 {
   .icons {
     display: block;
   }
+  .dev, .technologies, p {
+    font-size: 30px;
+  }
 }
 
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) { 
@@ -343,6 +352,9 @@ h2 {
 .icons {
   display: block;
 }
+.dev, .technologies, p {
+  font-size: 30px;
+}
 }
 
 @media screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
@@ -370,6 +382,9 @@ h2 {
   }
   .icons {
     display: block;
+  }
+  .dev, .technologies, p {
+    font-size: 30px;
   }
 }
 
@@ -402,6 +417,9 @@ and (-webkit-device-pixel-ratio : 3) {
   .icons {
     display: block;
   }
+  .dev, .technologies, p {
+    font-size: 30px;
+  }
 }
 
 @media only screen 
@@ -432,6 +450,9 @@ and (max-device-width : 1024px) {
   .icons {
     display: block;
   }
+  .dev, .technologies, p {
+    font-size: 28px;
+  }
 }
 
 @media screen and (device-width: 411px) and (device-height: 731px) and (-webkit-device-pixel-ratio: 3) {
@@ -459,6 +480,9 @@ and (max-device-width : 1024px) {
   }
   .icons {
     display: block;
+  }
+  .dev, .technologies, p {
+    font-size: 30px;
   }
 }
 
